@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Veechi's Unisex Salon</title>
+
+<!-- Bootstrap 5 CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<!-- Site styles -->
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===== Navbar ===== -->
+<nav class="navbar navbar-expand-lg navbar-veechi">
+  <div class="container">
+    <a class="navbar-brand" href="#home">Veechi's.</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" style="border-color:#cfc6b8;">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav mx-auto mt-3 mt-lg-0">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+      <a href="book-now.html" class="btn-book">Book now</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ===== Hero ===== -->
+<!-- REPLACE HERO IMAGE: edit the --hero-image variable in css/style.css -->
+<section class="hero" id="home">
+  <div class="eyebrow">WELCOME TO VEECHI'S UNISEX SALON</div>
+  <h1>Look good.<br>Feel unstoppable.</h1>
+  <div class="d-flex gap-3 justify-content-center flex-wrap">
+    <a href="#services" class="btn-outline-gold">Our services</a>
+    <a href="book-now.html" class="btn-pink">Book appointment</a>
+  </div>
+</section>
+
+<!-- ===== Callout ===== -->
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-lg-9">
+      <div class="callout d-flex align-items-center gap-4">
+        <div class="flex-grow-1">
+          <div class="eyebrow">ONE SALON, EVERY SERVICE</div>
+          <div class="callout-text">From hairstyling to microblading, one place for your whole look — for men, women and everyone in between.</div>
+        </div>
+        <a href="book-now.html" class="btn-dark-solid">Book today</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== Services ===== -->
+<!-- Each icon below links to its own service page in /services -->
+<section class="container py-5" id="services">
+  <div class="section-head text-center mb-4">
+    <div class="section-eyebrow">OUR SERVICES</div>
+    <h2>What we do</h2>
+  </div>
+  <div class="row row-cols-2 row-cols-md-4 g-3">
+    <div class="col">
+      <a href="services/haircuts-styling.html" class="service-item">
+        <div class="service-icon"><i class="bi bi-scissors"></i></div>
+        <div class="label">Haircuts &amp; styling</div>
+      </a>
+    </div>
+    <div class="col">
+      <a href="services/makeup.html" class="service-item">
+        <div class="service-icon"><i class="bi bi-palette2"></i></div>
+        <div class="label">Makeup</div>
+      </a>
+    </div>
+    <div class="col">
+      <a href="services/nails-mani-pedi.html" class="service-item">
+        <div class="service-icon"><i class="bi bi-hand-index-thumb"></i></div>
+        <div class="label">Nails, mani &amp; pedi</div>
+      </a>
+    </div>
+    <div class="col">
+      <a href="services/lashes-lamination.html" class="service-item">
+        <div class="service-icon"><i class="bi bi-eye"></i></div>
+        <div class="label">Lashes &amp; lamination</div>
+      </a>
+    </div>
+    <div class="col">
+      <a href="services/photography.html" class="service-item">
+        <div class="service-icon"><i class="bi bi-camera"></i></div>
+        <div class="label">Photography</div>
+      </a>
+    </div>
+    <div class="col">
+      <a href="services/microblading.html" class="service-item">
+        <div class="service-icon"><i class="bi bi-pencil"></i></div>
+        <div class="label">Microblading</div>
+      </a>
+    </div>
+    <div class="col">
+      <a href="services/piercing-tattoos.html" class="service-item">
+        <div class="service-icon"><i class="bi bi-magnet"></i></div>
+        <div class="label">Piercing &amp; tattoos</div>
+      </a>
+    </div>
+    <div class="col">
+      <a href="services/wig-install-revamp.html" class="service-item">
+        <div class="service-icon"><i class="bi bi-gem"></i></div>
+        <div class="label">Wig install &amp; revamp</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Spotlight ===== -->
+<!-- REPLACE HAIR TREATMENT IMAGE: edit the --spotlight-image variable in css/style.css -->
+<section class="spotlight" id="about">
+  <div class="row g-0 align-items-stretch">
+    <div class="col-md-6 spotlight-img"></div>
+    <div class="col-md-6 d-flex align-items-center">
+      <div class="spotlight-content">
+        <div class="section-eyebrow">HAIR TREATMENT AND STEAMING</div>
+        <h3 class="mb-3">Deep care for your hair, not just your style.</h3>
+        <p>Steam treatments and conditioning that restore your hair between styles, alongside our full grooming menu for men and women.</p>
+        <a href="book-now.html" class="btn-pink">Book treatment</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Gallery ===== -->
+<!-- Gallery photos: free-to-use stock (Unsplash License). Swap any url('...') below with your own photo or a local path like 'images/gallery/haircut.jpg' whenever you're ready. -->
+<section class="container py-5" id="gallery">
+  <div class="section-head text-center mb-4">
+    <div class="section-eyebrow">GALLERY</div>
+    <h2>All our services</h2>
+  </div>
+  <div class="row row-cols-2 row-cols-md-4 g-2">
+    <div class="col"><div class="gallery-tile" style="background-image:url('https://images.unsplash.com/photo-1634484144058-fbe30f770ca1?w=600&auto=format&fit=crop&q=70');"><div class="tile-label">Haircut</div></div></div>
+    <div class="col"><div class="gallery-tile" style="background-image:url('https://images.unsplash.com/photo-1634480258143-ffb5e6df0029?w=600&auto=format&fit=crop&q=70');"><div class="tile-label">Hairstyling</div></div></div>
+    <div class="col"><div class="gallery-tile" style="background-image:url('https://images.unsplash.com/photo-1709477542149-f4e0e21d590b?w=600&auto=format&fit=crop&q=70');"><div class="tile-label">Makeup</div></div></div>
+    <div class="col"><div class="gallery-tile" style="background-image:url('https://images.unsplash.com/photo-1457972729786-0411a3b2b626?w=600&auto=format&fit=crop&q=70');"><div class="tile-label">Nails</div></div></div>
+    <div class="col"><div class="gallery-tile" style="background-image:url('https://images.unsplash.com/photo-1655370865452-269cef0b1b85?w=600&auto=format&fit=crop&q=70');"><div class="tile-label">Manicure</div></div></div>
+    <div class="col"><div class="gallery-tile" style="background-image:url('https://images.unsplash.com/photo-1664643411326-6c589531be3c?w=600&auto=format&fit=crop&q=70');"><div class="tile-label">Pedicure</div></div></div>
+    <div class="col"><div class="gallery-tile" style="background-image:url('https://images.unsplash.com/photo-1728432757040-1579d710f607?w=600&auto=format&fit=crop&q=70');"><div class="tile-label">Lashes</div></div></div>
+    <div class="col"><div class="gallery-tile" style="background-image:url('https://images.unsplash.com/photo-1619122462275-4c255e1c9120?w=600&auto=format&fit=crop&q=70');"><div class="tile-label">Lamination</div></div></div>
+    <div class="col"><div class="gallery-tile" style="background-image:url('https://images.unsplash.com/photo-1615458508880-ec0521ce754f?w=600&auto=format&fit=crop&q=70');"><div class="tile-label">Photography</div></div></div>
+    <div class="col"><div class="gallery-tile" style="background-image:url('https://images.unsplash.com/photo-1492618269284-653dce58fd6d?w=600&auto=format&fit=crop&q=70');"><div class="tile-label">Microblading</div></div></div>
+    <div class="col"><div class="gallery-tile" style="background-image:url('https://images.unsplash.com/photo-1629719256608-51317205d994?w=600&auto=format&fit=crop&q=70');"><div class="tile-label">Piercing</div></div></div>
+    <div class="col"><div class="gallery-tile" style="background-image:url('https://images.unsplash.com/photo-1597852075234-fd721ac361d3?w=600&auto=format&fit=crop&q=70');"><div class="tile-label">Tattoos</div></div></div>
+    <div class="col"><div class="gallery-tile" style="background-image:url('https://images.unsplash.com/photo-1535911974356-3748cdc9d2f5?w=600&auto=format&fit=crop&q=70');"><div class="tile-label">Wig install</div></div></div>
+    <div class="col"><div class="gallery-tile" style="background-image:url('https://images.unsplash.com/photo-1634315775834-3e1ac73de6b6?w=600&auto=format&fit=crop&q=70');"><div class="tile-label">Wig revamp</div></div></div>
+    <div class="col"><div class="gallery-tile" style="background-image:url('https://images.unsplash.com/photo-1732861612244-5704d12e9397?w=600&auto=format&fit=crop&q=70');"><div class="tile-label">Hair treatment</div></div></div>
+    <div class="col"><div class="gallery-tile" style="background-image:url('https://images.unsplash.com/photo-1717160675489-7779f2c91999?w=600&auto=format&fit=crop&q=70');"><div class="tile-label">Steaming</div></div></div>
+  </div>
+</section>
+
+<!-- ===== Footer ===== -->
+<footer id="contact">
+  <div class="footer-container">
+
+    <div class="footer-brand">
+      <a href="#home" class="logo">
+        <span class="logo-icon">&#10022;</span>
+        <div>
+          <h2>Veechi's.</h2>
+          <span>UNISEX SALON</span>
+        </div>
+      </a>
+      <p>Style, beauty and confidence — for everyone, all under one roof.</p>
+    </div>
+
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+    </div>
+
+    <div class="footer-links">
+      <h3>Explore</h3>
+      <a href="services/haircuts-styling.html">Haircuts &amp; Styling</a>
+      <a href="services/makeup.html">Makeup</a>
+      <a href="services/nails-mani-pedi.html">Nails, Mani &amp; Pedi</a>
+      <a href="book-now.html">Book Now</a>
+    </div>
+
+    <div class="footer-social">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" aria-label="X (Twitter)"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    &copy; 2026 Veechi's Unisex Salon. All rights reserved.
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
